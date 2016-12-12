@@ -16,7 +16,7 @@ module.exports = function (config) {
 			'karma-spec-reporter'
 		],
 		autoWatch: false,
-		browsers: ['Chrome'],
+		browsers: ['PhantomJS'],
 
 		// list of files / patterns to load in the browser
 		files: [
